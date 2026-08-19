@@ -5,6 +5,14 @@ app_description = "Procurement Requisition Management"
 app_email = "exit.mohidulislam@gmail.com"
 app_license = "mit"
 
+# Fixtures - export workflow with app
+fixtures = [
+    {
+        "dt": "Workflow",
+        "filters": [["document_type", "=", "Procurement Requisition"]]
+    }
+]
+
 # Apps
 # ------------------
 
